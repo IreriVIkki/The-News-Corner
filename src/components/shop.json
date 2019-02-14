@@ -1,0 +1,52 @@
+{
+    "clothes": [
+        {
+            "name": "Dreaweet Women's Off Shoulder Lace Boat Neck Vintage Cocktail Party Wedding Dresses",
+            "rating": "3.9",
+            "price": "$17.99",
+            "offerPrice": "$12.99",
+            "images": [
+                "https://images-na.ssl-images-amazon.com/images/I/61dZM16aLpL._UY741_.jpg",
+                "https://images-na.ssl-images-amazon.com/images/I/61Un-lZ1otL._UY550_.jpg",
+                "https://images-na.ssl-images-amazon.com/images/I/61twLdKt32L._UY550_.jpg",
+                "https://images-na.ssl-images-amazon.com/images/I/51P%2BJrywycL._UX522_.jpg"
+            ]
+        },
+        {
+            "name": "Hyling Women Off The Shoulder Short Sleeve High Low Cocktail Skater Dress",
+            "rating": "4.3",
+            "price": "$30.99",
+            "offerPrice": "$24.99",
+            "images": [
+                "https://images-na.ssl-images-amazon.com/images/I/61q7JgptHIL._UX425_.jpg",
+                "https://images-na.ssl-images-amazon.com/images/I/61zn8tJr4AL._SX425._SX._UX._SY._UY_.jpg",
+                "https://images-na.ssl-images-amazon.com/images/I/51qjVcURJpL._SX425._SX._UX._SY._UY_.jpg",
+                "https://images-na.ssl-images-amazon.com/images/I/61%2BxiYmMiaL._SX425._SX._UX._SY._UY_.jpg"
+            ]
+        },
+        {
+            "name": "Hyling Womens Tank Tops Summer Sleeveless V Neck Black Casual Long Tank Tops",
+            "rating": "2.9",
+            "price": "$12.99",
+            "offerPrice": "$9.99",
+            "images": [
+                "https://images-na.ssl-images-amazon.com/images/I/71WPxPgaAfL._UY741_.jpg",
+                "https://images-na.ssl-images-amazon.com/images/I/61uLnIr1TsL._UY550_.jpg",
+                "https://images-na.ssl-images-amazon.com/images/I/61Vvt%2B19xqL._UY550_.jpg",
+                "https://images-na.ssl-images-amazon.com/images/I/511r2aCZXWL.jpg"
+            ]
+        },
+        {
+            "name": "SweatyRocks Women's Sleeveless Flowy Loose Fit Racerback Yoga Workout Tank Top",
+            "rating": "4.1",
+            "price": "$12.99",
+            "offerPrice": "$9.99",
+            "images": [
+                "https://images-na.ssl-images-amazon.com/images/I/91bgHS-HApL._UY550_.jpg",
+                "https://images-na.ssl-images-amazon.com/images/I/81ZVbjrSXZL._UY550_.jpg",
+                "https://images-na.ssl-images-amazon.com/images/I/91qj6PeUpcL._UY550_.jpg",
+                "https://images-na.ssl-images-amazon.com/images/I/91es5Spaz3L._UY550_.jpg"
+            ]
+        }
+    ]
+}

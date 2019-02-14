@@ -1,0 +1,18 @@
+@import "../../App.scss";
+
+#breaking {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: stretch;
+
+    #breaking-title {
+        background-color: red;
+        flex: 0;
+    }
+
+    #breaking-news-sroll {
+        flex: 1;
+    }
+}

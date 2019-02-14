@@ -1,0 +1,35 @@
+@import "../../App.scss";
+
+#tech-item-container {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    border: 1px solid lighten($grey-4, 70%);
+    padding: 20px;
+
+    #tech-item-image {
+        flex: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    #tech-item-title {
+        flex: 3;
+        padding-left: 5px;
+
+        * {
+            padding-bottom: 5px;
+        }
+
+        p {
+            font-size: 14px;
+            color: lighten($color: #000000, $amount: 40%);
+        }
+
+        #date {
+            color: $red;
+        }
+    }
+}

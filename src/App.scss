@@ -1,0 +1,49 @@
+$green-1: #35e65d;
+$grey-0: #808080;
+$grey-1: #cdd8ec;
+$grey-2: #f4f7f9;
+$grey-3: #b5b5b5;
+$grey-4: #262626;
+$grey-op-7: #262626aa;
+$grey-op-4: #2626265a;
+$turqois-1: #35cce6;
+$turqois-2: #a3eaf7;
+$white: #fff;
+$red: #f20045;
+$white: #fff;
+$defaultPadding: 8px;
+$defaultgap: 5px;
+$logoWidth: 20%;
+$black: #000000;
+$topheight: 40px;
+
+.App,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+li,
+ol,
+ul,
+input,
+main,
+figure {
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.seperator-line-horizontal {
+    border: 1px solid lighten($grey-4, 70%);
+}
+.seperator-line-vertical {
+    border: 1px solid lighten($grey-4, 70%);
+}

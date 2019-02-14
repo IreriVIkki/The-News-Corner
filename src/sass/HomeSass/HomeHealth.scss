@@ -1,0 +1,85 @@
+@import "../../App.scss";
+
+#home-health {
+    #health-title {
+        text-align: center;
+        padding: 5px;
+        border: 2px solid lighten($color: $grey-4, $amount: 70%);
+        font-family: "Times New Roman", Times, serif;
+        text-transform: uppercase;
+    }
+
+    #health-content {
+        display: flex;
+        border: 2px solid lighten($color: $grey-4, $amount: 70%);
+        border-top: 0;
+        padding: $defaultPadding;
+
+        #health-content-item {
+            flex: 1;
+
+            #health-content-item-container {
+                // background-color: black;
+
+                * {
+                    padding: 2px 0;
+                }
+
+                #health-image {
+                    height: 250px;
+                    background-position: 50% 50%;
+                    background-size: cover;
+                }
+
+                #health-date {
+                    color: $red;
+                    font-size: 12px;
+                    padding-top: $defaultPadding;
+                }
+
+                #health-author {
+                    color: lighten($color: $grey-4, $amount: 20%);
+                }
+
+                button {
+                    padding: 0.5em 1em;
+                    background-color: $red;
+                    border: 0;
+                    color: $white;
+                    display: flex;
+                    align-items: center;
+                    border: 2px solid $red;
+                    box-shadow: inset 0 0 5px $white;
+                    // justify-self: baseline;
+                    bottom: 0%;
+
+                    * {
+                        margin: 0;
+                        padding: 0.25rem;
+                    }
+                }
+
+                button:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        #health-content-item:nth-child(2) {
+            flex: 1.2 !important;
+            display: flex;
+        }
+
+        #health-content-item:nth-child(2)::after {
+            content: " ";
+            border-left: 2px solid lighten($color: $grey-4, $amount: 70%);
+            margin: 0 $defaultPadding;
+        }
+
+        #health-content-item:nth-child(2)::before {
+            content: " ";
+            border-left: 2px solid lighten($color: $grey-4, $amount: 70%);
+            margin: 0 $defaultPadding;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+@import "../../App.scss";
+
+#landing {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+
+    #homeLanding {
+        // flex: 1;
+    }
+    #home-landing-bottom {
+        width: 100%;
+        height: auto;
+    }
+
+    #breakingNews {
+        flex: auto;
+        padding: 4px 2rem;
+    }
+}
+
+#main-container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding: 0 2rem;
+
+    #main {
+        width: 80%;
+
+        #main-center {
+            display: flex;
+            width: 100%;
+            height: auto;
+
+            #main-center-left {
+                flex: 3;
+                display: block;
+            }
+
+            #main-center-right {
+                flex: 1;
+                border: 2px solid lighten($color: $grey-4, $amount: 70%);
+                border-top: 0;
+                border-left: 0;
+                display: flex;
+            }
+        }
+        #main-center-advert {
+            padding: $defaultPadding;
+            border: 2px solid lighten($color: $grey-4, $amount: 70%);
+            border-top: 0;
+            border-bottom: 0;
+            // background-color: #333;
+
+            div {
+                padding: $defaultPadding;
+                background-color: $grey-4;
+                background-image: url("https://picsum.photos/1000/150?white");
+                height: 150px;
+                background-position: center;
+                background-size: cover;
+                opacity: 0.7;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $red;
+            }
+        }
+
+        #main-center-shop {
+            width: 100%;
+        }
+    }
+
+    #sidebar {
+        width: 20%;
+    }
+}
+#footer-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $grey-4;
+    color: lighten($color: $grey-4, $amount: 50%);
+
+    #footer-nav-container {
+        display: flex;
+        padding: $defaultPadding/2;
+
+        #footer-nav-item {
+            border-right: 2px solid darken($color: $grey-4, $amount: 70%);
+            padding: $defaultPadding $defaultPadding * 2;
+            font-family: "Times New Roman", Times, serif;
+            letter-spacing: 0.08em;
+
+            &:last-child {
+                border: 0;
+            }
+        }
+    }
+}

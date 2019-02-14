@@ -1,0 +1,48 @@
+@import "../../App.scss";
+
+#home-sidebar-galery {
+    // padding: 2rem;
+    // background-color: #888888;
+
+    #sidebar-galery-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border: 2px solid lighten($color: $grey-4, $amount: 70%);
+        border-top: 0;
+        font-family: "Times New Roman", Times, serif;
+        border-left: 0;
+        background-color: lighten($color: $grey-4, $amount: 80%);
+    }
+
+    #sidebar-galery-main {
+        padding: $defaultPadding;
+        border: 2px solid lighten($color: $grey-4, $amount: 70%);
+        border-top: 0;
+        border-left: 0;
+        width: 100%;
+
+        #gallery-row {
+            width: 100%;
+            display: flex;
+
+            &:not(:last-child) {
+                margin-bottom: $defaultPadding;
+            }
+
+            #gallery-image {
+                height: 100px;
+                flex: 1;
+                background-color: black;
+                background-position: 50% 50%;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+                &:first-child {
+                    margin-right: $defaultPadding;
+                }
+            }
+        }
+    }
+}

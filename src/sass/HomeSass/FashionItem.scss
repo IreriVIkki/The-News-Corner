@@ -1,0 +1,29 @@
+@import "../../App.scss";
+
+#fashion-item {
+    padding: 2px;
+    display: flex;
+
+    #fashion-item-image {
+        flex: 1.5;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+    }
+
+    #fashion-item-details {
+        flex: 2.5;
+        padding: 0 $defaultPadding;
+
+        * {
+            font-size: 12px;
+            color: lighten(#000000, 20%);
+            padding-bottom: $defaultPadding;
+        }
+
+        #fashion-item-details-date {
+            color: $red;
+            font-size: 12px;
+        }
+    }
+}

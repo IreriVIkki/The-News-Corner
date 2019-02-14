@@ -1,0 +1,109 @@
+@import "../../App.scss";
+
+#landing-bottom {
+    height: auto;
+    background-color: #262626;
+    padding-right: 2em;
+
+    #landing-bottom-inner {
+        background-color: $white;
+        height: 100%;
+        display: flex;
+        // overflow: hidden;
+
+        #tech {
+            flex: 4;
+
+            #tech-top {
+                color: $white;
+                height: $topheight;
+                display: flex;
+                overflow: hidden;
+                align-items: center;
+                justify-content: center;
+                font-family: "Times New Roman", Times, serif;
+                background-color: $black;
+                letter-spacing: 0.08em;
+            }
+
+            #tech-bottom {
+                padding-left: 2rem;
+                height: 20vh;
+                width: 100%;
+                display: flex;
+            }
+        }
+
+        #seperator {
+            width: 20px;
+            display: flex;
+            flex-direction: column;
+
+            #seperator-top {
+                background-color: $red;
+                width: 100%;
+                height: $topheight;
+            }
+            #seperator-bottom {
+                background-color: $black;
+                width: 100%;
+                flex: 1;
+                height: 100%;
+            }
+        }
+
+        #metadata {
+            flex: 1;
+
+            #metadata-social-media {
+                height: $topheight;
+                display: flex;
+                overflow: hidden;
+                align-items: center;
+                justify-content: center;
+
+                * {
+                    height: 100%;
+                    width: 20px;
+                    width: 20px;
+                    margin: 0 0.5em;
+                }
+            }
+
+            #metadata-weather {
+                padding: 1rem;
+                color: $white;
+                overflow: hidden;
+                background-color: $red;
+                height: 20vh;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+
+                #metadata-weather-top {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        width: 70px;
+                        height: 70px;
+                    }
+
+                    * {
+                        margin: 0 5px;
+                    }
+                }
+
+                #metadata-weather-bottom {
+                    display: flex;
+                    align-items: center;
+
+                    * {
+                        margin: 0 5px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@import "../../App.scss";
+
+#img-box {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: auto;
+    h4 {
+        color: white;
+        padding: 5px;
+        background-color: #33333355;
+    }
+}
