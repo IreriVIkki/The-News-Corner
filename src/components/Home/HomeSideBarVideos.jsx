@@ -20,8 +20,8 @@ export class HomeSideBarVideos extends Component {
                                             src={`https://www.youtube.com/embed/${
                                                 video.id
                                             }`}
-                                            frameborder="0"
-                                            allowfullscreen
+                                            frameBorder="0"
+                                            allowFullScreen
                                         />
                                     </div>
                                     <h4>{video.snippet.title}</h4>

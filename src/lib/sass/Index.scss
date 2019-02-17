@@ -1,8 +1,8 @@
 $green-1: #35e65d;
-$grey-0: #808080;
-$grey-1: #cdd8ec;
-$grey-2: #f4f7f9;
-$grey-3: #b5b5b5;
+$grey-0: #d8d8d8;
+$grey-1: #a8a8a8;
+$grey-2: #868686;
+$grey-3: #535353;
 $grey-4: #262626;
 $grey-op-7: #262626aa;
 $grey-op-4: #2626265a;
@@ -16,9 +16,12 @@ $defaultgap: 5px;
 $logoWidth: 20%;
 $black: #000000;
 $topheight: 40px;
+$mainPadding: 2em;
+$mainMargin: 2em;
 $navBarHeight: 50px;
 
-.App,
+html,
+body,
 h1,
 h2,
 h3,
@@ -35,16 +38,8 @@ main,
 figure {
     margin: 0%;
     padding: 0%;
-    overflow: hidden;
 }
 
 * {
     box-sizing: border-box;
-}
-
-.seperator-line-horizontal {
-    border: 1px solid lighten($grey-4, 70%);
-}
-.seperator-line-vertical {
-    border: 1px solid lighten($grey-4, 70%);
 }

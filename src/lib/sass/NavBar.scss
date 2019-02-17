@@ -1,0 +1,52 @@
+@import "./Index.scss";
+
+#nav {
+    flex: 4;
+    background-color: rgba(51, 51, 51, 0.442);
+    // height: 70px;
+
+    & > * {
+        padding: 0 $mainPadding;
+    }
+
+    nav {
+        height: $navBarHeight;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: $red;
+
+        & > * {
+            padding: 0 2em;
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            font-family: "Times New Roman", Times, serif;
+            letter-spacing: 0.08em;
+            text-decoration: none;
+            color: $white;
+            transition: 300ms all;
+        }
+
+        & > *:hover {
+            cursor: pointer;
+            background-color: $white;
+            color: black;
+        }
+
+        & > *:not(:last-child) {
+            border-right: lighten($grey-3, 40%) 1px solid;
+        }
+    }
+
+    #nav-details {
+        display: flex;
+        margin-left: $mainPadding;
+
+        & > * {
+            padding: $defaultPadding 0;
+            margin-right: $mainMargin;
+        }
+    }
+}

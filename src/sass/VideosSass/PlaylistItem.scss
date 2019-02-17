@@ -1,0 +1,36 @@
+@import "../../App.scss";
+
+#playlist-item-container {
+    display: flex;
+    flex-direction: column;
+    // padding: 0 $topheight;
+
+    // background-color: lighten($color: $grey-4, $amount: 40%);
+
+    > :first-child {
+        background-color: black;
+        padding: $defaultPadding + 4 $topheight;
+    }
+
+    > :first-child:hover {
+        background-color: lighten($color: $grey-4, $amount: 20%);
+    }
+
+    #playlist-drop-down {
+        > * {
+            padding: $defaultPadding + 2 $topheight + $defaultPadding;
+            margin: 2px 0;
+            width: 100%;
+            transition: 300ms all;
+        }
+
+        > :not(:last-child):hover {
+            background-color: lighten($color: $grey-4, $amount: 20%);
+        }
+
+        > :last-child:hover {
+            background-color: $red;
+            color: black;
+        }
+    }
+}

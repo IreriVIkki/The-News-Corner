@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Logo from "../../assets/sitelogo.png";
+import NavBar from "../../lib/components/NavBar";
 import "../../sass/Home/HomeLanding.scss";
 
 export class HomeLanding extends Component {
     render() {
         const {
-            content,
             trendingNews,
             getNewsSearchTerm,
             handleSearchNews
@@ -52,50 +52,7 @@ export class HomeLanding extends Component {
                                 <img src={Logo} alt="" />
                             </div>
                         </div>
-                        <div id="nav">
-                            <nav>
-                                <div id="nav-item">
-                                    <h4>HOME</h4>
-                                </div>
-                                <div className="seperator" />
-                                <div id="nav-item">
-                                    <h4>VIDEOS</h4>
-                                </div>
-                                <div className="seperator" />
-                                <div id="nav-item">
-                                    <h4>SHOP</h4>
-                                </div>
-                                <div className="seperator" />
-                                <div id="nav-item">
-                                    <h4>BLOG POSTS</h4>
-                                </div>
-                                <div className="seperator" />
-                                <div id="nav-item">
-                                    <h4>GALERY</h4>
-                                </div>
-                                <div className="seperator" />
-                                <div id="nav-item">
-                                    <h4>REVIEWS</h4>
-                                </div>
-                                <div className="seperator" />
-                                <div id="nav-item">
-                                    <h4>CELEBRITY</h4>
-                                </div>
-                            </nav>
-                            <div id="nav-details">
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Saepe, architecto!
-                                </p>
-                                <form onSubmit={handleSearchNews()}>
-                                    <input
-                                        type="text"
-                                        onChange={getNewsSearchTerm()}
-                                    />
-                                    <button type="submit">Search</button>
-                                </form>
-                            </div>
-                        </div>
+                        <NavBar />
                     </div>
                 </div>
             </section>

@@ -76,70 +76,11 @@
                     }
                 }
             }
-
-            #nav {
-                flex: 4;
-                background-color: rgba(51, 51, 51, 0.442);
-                height: 70px;
-
-                nav {
-                    padding-left: ($logoWidth);
-                    height: 40px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: flex-start;
-                    background-color: $red;
-
-                    #nav-item {
-                        padding: 0 2em;
-                        display: flex;
-                        height: 100%;
-                        justify-content: center;
-                        align-items: center;
-                        font-family: "Times New Roman", Times, serif;
-                        letter-spacing: 0.08em;
-                    }
-
-                    #nav-item:hover {
-                        cursor: pointer;
-                        background-color: darken($red, 20%);
-                    }
-                }
-
-                #nav-details {
-                    padding-left: ($logoWidth);
-                    height: 30px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: flex-start;
+            &:last-child {
+                > * {
+                    > nav,
                     p {
-                        padding: 0 2em;
-                    }
-
-                    form {
-                        height: 100%;
-                        display: flex;
-                        align-items: center;
-                        input {
-                            border-radius: 5px 0 0 5px;
-                            border: 0;
-                            background-color: #ffffff;
-                            padding: 0 5px;
-                            height: 80%;
-                        }
-                        button {
-                            border-radius: 0 5px 5px 0;
-                            border: 0;
-                            background-color: #000;
-                            color: white;
-                            padding: 0 10px;
-                            height: 80%;
-                            transition: 300ms all;
-
-                            &:hover {
-                                background-color: #333;
-                            }
-                        }
+                        padding-left: 20%;
                     }
                 }
             }
